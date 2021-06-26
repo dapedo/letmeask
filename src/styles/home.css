@@ -1,0 +1,17 @@
+.separator {
+  @apply text-gray-500 flex items-center;
+}
+.separator::before {
+  @apply bg-gray-500;
+  content: '';
+  flex: 1;
+  heigth: 1px;
+  margin-right: 16px;
+}
+.separator::after {
+  @apply bg-gray-500;
+  content: '';
+  flex: 1;
+  heigth: 1px;
+  margin-left: 16px;
+}
