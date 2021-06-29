@@ -61,6 +61,7 @@ export function AuthContextProvider({ children }: AuthTypes) {
       }
     } catch (error) {
       console.error(error)
+      alert('Houve um erro na tentativa de login, tente novamente.')
     }
   }
 
